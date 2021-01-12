@@ -1,10 +1,10 @@
 #recieves input from user
-sentence = input('enter the sentence: ')
-tofind = input('what do you want to find?: ')
-#checks if tofind value exists in the sentence
-trueis = sentence.find(tofind)
-#prints output depending on trueis value
-if trueis == (-1):
-    print ((tofind) , 'does not exist in that sentence!')
+sentence = input('Sentence: ')
+find = input('Find: ')
+#checks if find value exists in the sentence
+is_true = sentence.find(find)
+#prints output depending on is_true value
+if is_true == (-1):
+    print ((find) , 'does not exist')
 else:
-    print ((tofind), 'exists,'+' position is',(trueis + 1))
+    print ((find), 'exists,'+' position = ',(trueis + 1))
