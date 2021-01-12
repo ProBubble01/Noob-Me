@@ -7,4 +7,4 @@ is_true = sentence.find(find)
 if is_true == (-1):
     print ((find) , 'does not exist')
 else:
-    print ((find), 'exists,'+' position = ',(trueis + 1))
+    print ((find), 'exists,'+' position = ',(is_true + 1))
