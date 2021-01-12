@@ -1,2 +1,2 @@
 # Noob-Me
-All My Programes I Wrote When I Started Coding
+Programes i wrote when starting out. Currently 100% python, might be a hodge podge in the future
